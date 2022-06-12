@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # ✍ Writeups
 
 Here you can find all the writeups of various labs/boxes from different platforms.
