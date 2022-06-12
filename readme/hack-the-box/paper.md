@@ -1,5 +1,7 @@
 ---
 description: Difficulty - Easy
+cover: ../../.gitbook/assets/Paper.png
+coverY: -221.78217821782178
 ---
 
 # 🖨 Paper
