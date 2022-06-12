@@ -1,4 +1,9 @@
 # 📦 Hack The Box
 
-*[paper.md](paper.md)
-*[router-space.md](router-space.md)
+{% content-ref url="paper.md" %}
+[paper.md](paper.md)
+{% endcontent-ref %}
+
+{% content-ref url="router-space.md" %}
+[router-space.md](router-space.md)
+{% endcontent-ref %}
