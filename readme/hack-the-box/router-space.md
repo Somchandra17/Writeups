@@ -248,7 +248,7 @@ Let's check the .ssh directory&#x20;
 
 ![dir .ssh](<../../.gitbook/assets/no auth ssh key.jpg>)
 
-It was empty. <mark style="background-color:purple;">So, we can generate our own public key and import them as</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">`authorized_keys`</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">in .ssh</mark>
+It was empty. <mark style="color:blue;"></mark> <mark style="color:red;">So, we can generate our own public key and import them as</mark> <mark style="color:red;"></mark><mark style="color:red;">`authorized_keys`</mark> <mark style="color:red;"></mark><mark style="color:red;">in .ssh folder</mark>
 
 Let's come back to our Host machine and open terminal or PowerShell (windows)
 
