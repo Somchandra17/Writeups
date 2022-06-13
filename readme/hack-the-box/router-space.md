@@ -1,7 +1,3 @@
----
-layout: editorial
----
-
 # 🗼 Router Space
 
 ![](../../.gitbook/assets/RouterSpace.png)

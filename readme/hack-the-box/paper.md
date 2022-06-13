@@ -1,6 +1,5 @@
 ---
 description: Difficulty - Easy
-layout: editorial
 ---
 
 # 🖨 Paper
