@@ -283,19 +283,17 @@ replace "id\__rsa key" with your own newly generated `id`_`_rsa.pub`
 
 Now when it's done let's connect to paul via ssh
 
-{% tabs %}
-{% tab title="Windows" %}
-Use putty or open PowerShell with administrative permission
+> For Windows
+>
+> Use putty or open PowerShell with administrative permission
+>
+> `ssh -i .\id_rsa paul@ip`
 
-`ssh -i .\id_rsa paul@ip`
-{% endtab %}
-
-{% tab title="Linux" %}
-`chmod 600 id_rsa`
-
-`ssh -i id_rsa paul@ip`
-{% endtab %}
-{% endtabs %}
+> For Linux
+>
+> `chmod 600 id_rsa`
+>
+> `ssh -i id_rsa paul@ip`
 
 ![ssh](../../.gitbook/assets/ssh.jpg)
 

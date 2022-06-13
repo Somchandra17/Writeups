@@ -360,6 +360,6 @@ Pwned!
 
 **Thanks for reading. Hope you have enjoyed and learned.**\
 \
-&#x20;_<mark style="background-color:yellow;">**For any questions feel free to ping me on**</mark>_ [_<mark style="background-color:yellow;">**Twitter**</mark>_](https://twitter.com/0xs0m) _<mark style="background-color:yellow;">**or**</mark>_ [_<mark style="background-color:yellow;">**LinkedIn**</mark>_](https://www.linkedin.com/in/somchandra17/)_<mark style="background-color:yellow;">****</mark>_
+&#x20;_<mark style="color:green;">**For any questions feel free to ping me on**</mark>_ [_<mark style="color:green;">**Twitter**</mark>_](https://twitter.com/0xs0m) _<mark style="color:green;">**or**</mark>_ [_<mark style="color:green;">**LinkedIn**</mark>_](https://www.linkedin.com/in/somchandra17/)_<mark style="color:green;">****</mark>_
 
 ***
