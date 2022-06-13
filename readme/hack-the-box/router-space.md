@@ -300,3 +300,50 @@ Now when it's done let's connect to paul via ssh
 > `ssh -i id_rsa paul@ip`
 
 ![ssh](../../.gitbook/assets/ssh.jpg)
+
+We are in as paul. Now let's escalate to root&#x20;
+
+### Privilege Escalation
+
+I firstly prefer manual exploration for any privilege escalation
+
+On the first hit I found the vulnerability `sudo version 1.8.31`
+
+![](<../../.gitbook/assets/sudo -V.jpg>)
+
+This was vulnerable to `CVE-2021-3156`&#x20;
+
+Or if you want to use [Linpeas](https://github.com/carlospolop/PEASS-ng/releases/tag/20220612) you can copy via `scp`
+
+```
+scp -i id_rsa linpeas.sh paul@ip:.
+```
+
+Then `chmod +x linpeas.sh` then run it `./linpeas.sh` (On paul's machine)
+
+Now we can use this [exploit](https://github.com/worawit/CVE-2021-3156/blob/main/exploit\_nss.py) to spawn the root shell.
+
+Download the [exploit.py](https://github.com/worawit/CVE-2021-3156/blob/main/exploit\_nss.py) to our machine and then copy to paul's machine via `SCP`
+
+{% hint style="info" %}
+`In windows, Windows Defender will not allow linpeas or`CVE-2021-3156 exploit to be downloaded so we have to turn the windows defender off
+{% endhint %}
+
+```
+scp -i id_rsa exploit.py paul@ip:.
+```
+
+Now we have the exploit in the machine so let's run it via python3
+
+![exploit.py](../../.gitbook/assets/exploit.jpg)
+
+and BOOM! we are root.
+
+Let's get our root flag.
+
+![root.txt](../../.gitbook/assets/root.jpg)
+
+Pwned!
+
+**Thanks for reading. Hope you have enjoyed and learned.**\
+_<mark style="color:green;">**For any questions feel free to ping me on**</mark>_ [_<mark style="color:green;">**Twitter**</mark>_](https://twitter.com/0xs0m) _<mark style="color:green;">**or**</mark>_ [_<mark style="color:green;">**LinkedIn**</mark>_](https://www.linkedin.com/in/somchandra17/)_<mark style="color:green;">****</mark>_
