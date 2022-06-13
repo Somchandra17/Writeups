@@ -8,7 +8,7 @@ Link: [https://app.hackthebox.com/machines/444](https://app.hackthebox.com/machi
 
 For this machine we will need an Android Emulator and Burpsuit or OWASPZap connected with that android emulator. I will be solving this lab on my Windows machine.
 
-1. **Android Emulator** - There are various type of android emulator present like Anbox, Android Studio, Genymotion or you can even decompile the APK and try to reverse the .js files or can use an android phone too. I will be using Genymotion for this lab. Go ahead and download [Genymotion](https://www.genymotion.com/download/), install it and also install any device with **android 6.0 above**. Ones you are done proceed with next step.
+1. **Android Emulator** - There are various type of android emulator present like Anbox, Android Studio, Genymotion or you can even decompile the APK and try to reverse the .js files or can use an android phone too. I will be using Genymotion for this lab. Go ahead and download [Genymotion](https://www.genymotion.com/download/), install it and also install any device with **android 6.0 above** (go for android 8.0). Ones you are done proceed with next step.
 2. **Setting up the Proxy** - We need to intercept the traffic for the app, so we need to setup a proxy between Genymotion and Burp. Check this [https://support.genymotion.com/hc/en-us/articles/360012333077-How-to-use-Burp-suite-with-Genymotion-Desktop-](https://support.genymotion.com/hc/en-us/articles/360012333077-How-to-use-Burp-suite-with-Genymotion-Desktop-). Hope you are done so let's start.
 
 ### Reconnaissance
@@ -283,17 +283,19 @@ replace "id\__rsa key" with your own newly generated `id`_`_rsa.pub`
 
 Now when it's done let's connect to paul via ssh
 
-> For Windows
->
-> Use putty or open PowerShell with administrative permission
->
-> `ssh -i .\id_rsa paul@ip`
+{% tabs %}
+{% tab title="Windows" %}
+Use putty or open PowerShell with administrative permission
 
-> For Linux
->
-> `chmod 600 id_rsa`
->
-> `ssh -i id_rsa paul@ip`
+`ssh -i .\id_rsa paul@ip`
+{% endtab %}
+
+{% tab title="Linux" %}
+`chmod 600 id_rsa`
+
+`ssh -i id_rsa paul@ip`
+{% endtab %}
+{% endtabs %}
 
 ![ssh](../../.gitbook/assets/ssh.jpg)
 
