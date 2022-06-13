@@ -233,7 +233,7 @@ and bot is also restricting us to do the command injection
 recyclops list /../ && cat user.txt
 ```
 
-![](<../../.gitbook/assets/no command injection (2).png>)
+![](<../../.gitbook/assets/no command injection.png>)
 
 Let's try to read `/etc/passwd`
 
@@ -336,7 +336,7 @@ chmod +x linpeas.sh
 ./linpeas.sh
 ```
 
-![CVE-2021-3560](<../../.gitbook/assets/linpeas out (1).png>)
+![CVE-2021-3560](<../../.gitbook/assets/linpeas out.png>)
 
 So, we have a famous vulnerability "Polkit-exploit CVE-2021-3560" .
 
