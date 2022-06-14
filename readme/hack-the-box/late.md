@@ -56,3 +56,4 @@ after editing `/etc/hosts` and adding our machine's IP we are good to do.
 
 ![](<../../.gitbook/assets/vuln webpage higlighted with flask.png>)
 
+This page converts any image to text like on OCR,&#x20;
