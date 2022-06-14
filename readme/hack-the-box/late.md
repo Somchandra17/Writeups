@@ -56,4 +56,15 @@ after editing `/etc/hosts` and adding our machine's IP we are good to do.
 
 ![](<../../.gitbook/assets/vuln webpage higlighted with flask.png>)
 
-This page converts any image to text like on OCR,&#x20;
+This page converts any image to text like on OCR. So, let's upload an image and let's check the response
+
+![normal text](<../../.gitbook/assets/normal test to be extracted.png>)
+
+The output 👇
+
+```
+<p>If you want to turn an image into a text document, you came to the right place.
+</p>
+```
+
+Here we can see that it has extracted the text from the image.
