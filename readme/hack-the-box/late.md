@@ -40,3 +40,19 @@ Let's visit that in our browser
 
 ![port 80](<../../.gitbook/assets/home page.png>)
 
+By seeing the website there isn't that much.
+
+I found one link in the source code
+
+![source code](<../../.gitbook/assets/images htb source page.png>)
+
+To visit that page, we have to add `images.late.htb`  to our `HOST`
+
+![host](../../.gitbook/assets/host.png)
+
+after editing `/etc/hosts` and adding our machine's IP we are good to do.
+
+### images.late.htb
+
+![](<../../.gitbook/assets/vuln webpage higlighted with flask.png>)
+
