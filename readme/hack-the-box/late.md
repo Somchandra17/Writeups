@@ -297,7 +297,7 @@ we cannot edit `ssh-slert.sh` as we don't have any permission to edit that. So, 
 
 We can just use the cat command to read the root.txt and append that to our `svc_acc` without any rev shell
 
-1. Create a `.txt` file under `/home/svc_acc/flag.txt`
+1. Create a `flag.txt` file under `/home/svc_acc/`
 
 ```
 touch /home/svc_acc/flag.txt
