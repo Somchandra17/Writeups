@@ -101,7 +101,7 @@ Response 👇
 </p>
 ```
 
-But there weren't any important or useful files
+But there wasn't any important or useful files.
 
 Let's Check the `passwd` file so we can get the usernames.&#x20;
 
