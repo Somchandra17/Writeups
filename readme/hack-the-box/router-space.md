@@ -343,5 +343,5 @@ Let's get our root flag.
 
 Pwned!
 
-**Thanks for reading. Hope you have enjoyed and learned.**\
+**Thanks for reading. Hope you have enjoyed and learned something.**\
 _<mark style="color:green;">**For any questions feel free to ping me on**</mark>_ [_<mark style="color:green;">**Twitter**</mark>_](https://twitter.com/0xs0m) _<mark style="color:green;">**or**</mark>_ [_<mark style="color:green;">**LinkedIn**</mark>_](https://www.linkedin.com/in/somchandra17/)_<mark style="color:green;">****</mark>_
